@@ -1194,8 +1194,11 @@
 			background-color: #FF5C00;
 		}
 		a.button, a.tp-button {
-			background-color: #f7f7f7;
-			color: #747474;
+			background-color: #000;
+			color: #fff;
+		}
+		a.button:hover{
+			background-color: #FF5C00 !important;
 		}
 		.button-stroke a.button, .button-stroke a.button .button_icon i, .button-stroke a.tp-button {
 			border-color: #f7f7f7;

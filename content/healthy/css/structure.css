@@ -3602,9 +3602,7 @@ body:not(.with_aside) .portfolio_group.list .portfolio-item .portfolio-item-fw-w
 	margin-bottom: 20px;
 	padding-top: 30px;
 }
-#Footer .footer_copy .copyright {
-	float: left;
-}
+
 #Footer .footer_copy a#back_to_top {
 	float: right;
 	margin: -10px 0 0 0;
