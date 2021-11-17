@@ -83,6 +83,18 @@
     transform: scale(1.0);
     transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
 }
+::placeholder {
+  color:#000;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+ color:#000;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+ color: #000;
+}
     </style>
 
 </head>
@@ -525,7 +537,7 @@
                         <div class="column one">
                             <a id="back_to_top" class="button button_js" href="#"><i class="icon-up-open-big"></i></a>
                             <div style="color:#000" class="copyright">
-                                Copyright © 2021 Language Bridge. All Rights Reserved. - <a href="LANGUAGE_LINE_PRIVACY_POLICY.pdf" target="_blank">Privacy Policy</a>
+                                Copyright © 2021 Language Bridge. All Rights Reserved. - <a href="LANGUAGE_BRIDGE_PRIVACY_POLICY.pdf" target="_blank">Privacy Policy</a>
                             </div>
                         </div>
                    </center>
@@ -557,9 +569,9 @@
                                     <h2>Get in touch</h2>
                                 </div>
                                <div>
-                                    <h4 style="margin-bottom: 5px;">monday - friday</h4>
+                                    <h4 style="margin-bottom: 5px;">Monday-Friday</h4>
                                     <p>
-                                        8 am - 3 pm
+                                        8am to 8pm Central Time
                                     </p>
                                </div>
                             </div>
@@ -584,7 +596,7 @@
                                             aria-invalid="false"></textarea>
                                     </div>
                                     <div class="column one">
-                                        <input type="button" value="Send A Message" id="submit" onClick="return check_values();">
+                                        <input type="button" class="sm" value="Send A Message" id="submit" onClick="return check_values();">
                                     </div>
                                 </form>
                             </div>

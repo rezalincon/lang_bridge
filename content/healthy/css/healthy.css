@@ -1212,6 +1212,12 @@
 			background-color: #FF5C00;
 			color: #ffffff;
 		}
+		.sm{
+			background-color: #000 !important;
+		}
+		.sm:hover{
+			background-color: #FF5C00 !important;
+		}
 		.button-stroke a.button.button_theme, .button-stroke a.button.button_theme .button_icon i, .button-stroke a.tp-button.button_theme, .button-stroke button, .button-stroke input[type="submit"], .button-stroke input[type="reset"], .button-stroke input[type="button"] {
 			border-color: #FF5C00;
 			color: #FF5C00 !important;
@@ -1569,8 +1575,8 @@
 			background: #FF5C00;
 		}
 		input[type="date"], input[type="email"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="url"], select, textarea, .woocommerce .quantity input.qty, .dark input[type="email"], .dark input[type="password"], .dark input[type="tel"], .dark input[type="text"], .dark select, .dark textarea {
-			color: #626262;
-			background-color: rgba(239, 246, 250, 1);
+			color: #000 !important;
+			background-color: #fff;
 			border-color: #EBEBEB;
 		}
 		::-webkit-input-placeholder {
