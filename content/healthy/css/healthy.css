@@ -1577,7 +1577,7 @@
 		input[type="date"], input[type="email"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="url"], select, textarea, .woocommerce .quantity input.qty, .dark input[type="email"], .dark input[type="password"], .dark input[type="tel"], .dark input[type="text"], .dark select, .dark textarea {
 			color: #000 !important;
 			background-color: #fff;
-			border-color: #EBEBEB;
+			border-color: #000;
 		}
 		::-webkit-input-placeholder {
 			color: #929292;
@@ -1589,9 +1589,9 @@
 			color: #929292;
 		}
 		input[type="date"]:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="url"]:focus, select:focus, textarea:focus {
-			color: #1982c2;
-			background-color: rgba(233, 245, 252, 1) !important;
-			border-color: #d5e5ee;
+			color: #000;
+			background-color: #fff!important;
+			border-color: #000;
 		}
 		:focus::-webkit-input-placeholder {
 			color: #929292;
