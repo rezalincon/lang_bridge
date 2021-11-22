@@ -1,0 +1,8 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^(www.)?wespeakyourlanguage.co$
+RewriteCond %{REQUEST_URI} !^/Language Bridge/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /folder_name/$1
+RewriteCond %{HTTP_HOST} ^(www.)?wespeakyourlanguage.co$
+RewriteRule ^(/)?$ Language Bridge/index.html [L] 
